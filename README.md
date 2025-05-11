@@ -12,8 +12,15 @@ source venv/bin/activate  # Windows dùng venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 1. Cài đặt môi trường
+### 2. Chạy chương trình
+```python
+from src.mybignumber import MyBigNumber
+
+calc = MyBigNumber()
+print(calc.sum("1234", "897"))  # Kết quả: 2131
+```
+
+### 3. Chạy Unit Test
 ```bash
-python -m venv venv
-source venv/bin/activate  # Windows dùng venv\Scripts\activate
-pip install -r requirements.txt
+python -m unittest discover tests
+```
