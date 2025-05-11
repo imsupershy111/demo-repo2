@@ -10,3 +10,10 @@ Dự án cài đặt thuật toán cộng 2 số lớn bằng Python theo cách 
 python -m venv venv
 source venv/bin/activate  # Windows dùng venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+### 1. Cài đặt môi trường
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows dùng venv\Scripts\activate
+pip install -r requirements.txt
